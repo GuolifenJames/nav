@@ -2,7 +2,7 @@
 // Copyright @ 2018-present xiejiahe. All rights reserved.
 // See http://www.ordosai.com
 
-import dbJson from '../../data/cus_db.json'
+import dbJson from '../../data/db.json'
 import searchJson from '../../data/search.json'
 import settingsJson from '../../data/settings.json'
 import tagJson from '../../data/tag.json'
