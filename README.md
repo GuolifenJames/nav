@@ -137,8 +137,10 @@
 ## 代码推送
 
 git push origin master
+git pull origin master
 
 git push upstream master
+git pull upstream master
 
 
 ## 升级
