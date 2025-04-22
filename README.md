@@ -136,12 +136,14 @@
 
 ## 代码推送
 
-git push origin master
-git pull origin master
 
-git push upstream master
-git pull upstream master
 
+
+1、git pull upstream master
+2、git push upstream master
+
+3、git push origin master
+4、git pull origin master
 
 ## 升级
 
