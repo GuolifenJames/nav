@@ -1,0 +1,28 @@
+<nz-modal
+  [(nzVisible)]="visible"
+  [nzTitle]="$t('_authLogin')"
+  [nzOkLoading]="submitting"
+  (nzOnCancel)="handleCancel()"
+  (nzOnOk)="login()"
+>
+  <ng-container *nzModalContent>
+    <p>{{ $t('_inputTokenMsg') }}</p>
+    <input
+      autofocus
+      nz-input
+      [(ngModel)]="token"
+      autofocus
+      (keyup)="onKey($event)"
+      #input
+    />
+    <p *ngIf="!isSelfDevelop" class="!mt-2">
+      {{ $t('_getToken')
+      }}<a
+        href="http://www.ordosai.com#%E9%83%A8%E7%BD%B2"
+        target="_blank"
+      >
+        {{ $t('_readDoc') }}</a
+      >
+    </p>
+  </ng-container>
+</nz-modal>
